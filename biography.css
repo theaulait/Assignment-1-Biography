@@ -12,33 +12,23 @@ body{
     background-size: cover;
 }
 
+footer{
+	text-align: center;
+}
+
 div{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-#index{
-	background-image: url(Cup_Set_1.jpg);
-}
-
+#index{ background-image: url(Cup_Set_1.jpg); }
+#location{ background-image: url(Cup_Set_3.jpg); }
+#profilo{ background-image: url(Cup_Set_1.jpg); }
+#contact{ background-image: url(Cup_Set_2.jpg); }
 #aboutme{
 	background-image: url(Cup_Set_2.jpg);
-	padding-top: 50px;
     padding-right: 200px;
-    padding-bottom: 50px;
     padding-left: 200px;
-}
-
-#location{
-	background-image: url(Cup_Set_3.jpg);
-}
-
-#profilo{
-	background-image: url(Cup_Set_1.jpg);
-}
-
-#contact{
-	background-image: url(Cup_Set_2.jpg);
 }
 
 .img-circle{
@@ -62,17 +52,9 @@ h1{
 	font-size: 100px;
 }
 
-a{
-	color: black;
-}
-
-a:link{
-	text-decoration: none;
-}
-
-a:hover {
-    color: white;
-}
+a{ color: black; }
+a:link{ text-decoration: none; }
+a:hover{ color: white; }
 
 p{
 	margin-top: 50px;
@@ -99,6 +81,11 @@ input[type=submit] {
     -webkit-border-radius: 5px;
     border-radius: 5px; 
 }
+
+
+[placeholder]:focus:-moz-input-placeholder{ color:transparent; } 
+[placeholder]:focus:-ms-input-placeholder{ color:transparent; }
+[placeholder]:focus::-webkit-input-placeholder { color: transparent;}
 
 .logo{
 	margin: 30px;
